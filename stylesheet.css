@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.7em;
+    font-family: 'Vidaloka', serif;
+    background-color: rgb(41, 135, 243);
+
+}
+.container{
+    color: #fff;
+}
+.logo{
+    font-size: 14px;
+    justify-content: center;
+    margin-left: 300px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-left: 30px;
+}
+
+ul {
+    display: flex;
+    margin-left: 300px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 30px;
+    justify-content: end;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 70px;
+    flex-wrap: wrap;
+}
+
+.header h4 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.header h2 {
+    font-size: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.header p {
+    margin-top: 60px;
+    width: 800px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    margin-right: 100px;
+    width:400px;
+    height:400px;
+}
+.btn{
+    /* display: flex; */
+    margin:15px;
+}
+.btn1{
+    padding:15px;
+    margin-left: 30px;
+    background-color: rgb(10, 114, 234);
+    border:none;
+    color:#fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+.btn1:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+    background-color: rgb(9, 108, 222);
+}
+.header .right{
+    margin-left: 15px;
+}
+.header a{
+    margin-left:30px;
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+
+}
